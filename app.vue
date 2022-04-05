@@ -3,7 +3,7 @@
     <Navbar class="sticky top-0"/>
     <div
       class="bg-center bg-cover bg-no-repeat py-20 mt-4 rounded-t-xl"
-      style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(20, 20, 20)), url('static/bg.png')">
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(20, 20, 20)), url('https://i.imgur.com/nzT7FcC.png')">
       <div class="justify-center">
           <p class=" text-pink-400 text-xl font-normal text-center mb-2">Merge App | Beta</p>
           <p class="text-white text-4xl font-semibold text-center">A futuristic real-time messaging<br/>platform</p>
