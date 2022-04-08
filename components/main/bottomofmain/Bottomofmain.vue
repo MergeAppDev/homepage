@@ -1,7 +1,7 @@
 <template>
   <dir>
     <div class="flex justify-center">
-      <p class="text-3xl md:text-xl font-semibold text-gray-200 mb-4">Why should you choose us?</p>
+      <p class="text-xl md:text-3xl font-semibold text-gray-200 mb-4">Why should you choose us?</p>
     </div>
     <div class="flex justify-center text-gray-400">
       <div class="flex md:w-auto w-11/12 justify-center">
