@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar class="sticky top-0"/>
-    <Main />
+    <MainTopofmain />
+    <MainBottomofmain />
+    <Footer />
   </div>
 </template>
 
