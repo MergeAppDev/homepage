@@ -18,19 +18,83 @@ body {
 </style>
 
 <script>
+const description = "A futuristic real-time messaging platform"
+
 export default {
   head: {
-    title: 'Home | MergeApp',
+    title: "Home | MergeApp",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'my website description'
-      }
+        content: description
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@mergeappdotdev',
+      },
+      {
+        hid: 'twitter:creator',
+        name: 'twitter:creator',
+        content: '@mergeappdotdev',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'mergeapp.dev',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: description,
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/logo.png',
+      },
+      /* Open-Graph */
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'MergeApp.',
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'mergeapp.dev',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: description,
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/logo.png',
+      },
+      /* Others */
+      {
+        hid: 'theme-color',
+        name: 'theme-color',
+        content: '#d946ef',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.ico' }]
   }
 }
 </script>
